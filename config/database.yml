@@ -55,6 +55,3 @@ production:
   <<: *default
   adapter: postgresql
   url: <%= ENV['DATABASE_URL'] %>
-  database: protospace_2023_hiranoteam_production
-  username: protospace_2023_hiranoteam
-  password: <%= ENV['PROTOSPACE_2023_HIRANOTEAM_DATABASE_PASSWORD'] %>
